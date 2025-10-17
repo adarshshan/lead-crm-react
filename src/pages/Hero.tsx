@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
                 </div>
 
                 {Array.from({ length: 5 }).map((_, index) => (
-                  <StarIcon key={index} />
+                  <StarIcon key={index} className="fill-[#C58920]" />
                 ))}
                 <p>5/5</p>
               </div>
@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
                 </div>
 
                 {Array.from({ length: 5 }).map((_, index) => (
-                  <StarIcon key={index} />
+                  <StarIcon key={index} className="fill-[#C58920]" />
                 ))}
                 <p>5/5</p>
               </div>
