@@ -16,8 +16,8 @@ const HowItWorks = () => {
         </p>
       </div>
       <div className="relative flex flex-wrap gap-4 sm:gap-6 md:gap-7 justify-center mt-4">
-        <div className="w-full sm:w-[48%] md:w-[20%] min-h-[30vh] sm:min-h-[35vh] md:min-h-[40vh] shadow-md rounded-2xl p-4 bg-[#ffffff] z-50">
-          <div className="w-full flex flex-col justify-center items-center py-4">
+        <div className="w-full sm:w-[48%] md:w-[20%] min-h-[30vh] sm:min-h-[35vh] md:min-h-[50vh] shadow-md rounded-2xl p-4 bg-[#ffffff] z-50">
+          <div className="w-full h-full flex flex-col justify-between items-center py-4">
             <One className="size-20" />
             <h3 className="font-semibold text-lg mt-5 text-[#090F4E]">
               Install the Extension
@@ -33,8 +33,8 @@ const HowItWorks = () => {
             />
           </div>
         </div>
-        <div className="w-full sm:w-[48%] md:w-[20%] min-h-[30vh] sm:min-h-[35vh] md:min-h-[40vh] shadow-md rounded-2xl p-4 bg-[#ffffff] z-50">
-          <div className="w-full flex flex-col justify-center items-center py-4">
+        <div className="w-full sm:w-[48%] md:w-[20%] min-h-[30vh] sm:min-h-[35vh] md:min-h-[50vh] shadow-md rounded-2xl p-4 bg-[#ffffff] z-50">
+          <div className="w-full h-full flex flex-col justify-between items-center py-4">
             <Two className="size-20" />
             <h3 className="font-semibold text-lg mt-5 text-[#090F4E]">
               Browse LinkedIn
@@ -50,8 +50,8 @@ const HowItWorks = () => {
             />
           </div>
         </div>
-        <div className="w-full sm:w-[48%] md:w-[20%] min-h-[30vh] sm:min-h-[35vh] md:min-h-[40vh] shadow-md rounded-2xl p-4 bg-[#ffffff] z-50">
-          <div className="w-full flex flex-col justify-center items-center py-4">
+        <div className="w-full sm:w-[48%] md:w-[20%] min-h-[30vh] sm:min-h-[35vh] md:min-h-[50vh] shadow-md rounded-2xl p-4 bg-[#ffffff] z-50">
+          <div className="w-full h-full flex flex-col justify-between items-center py-4">
             <Three className="size-20" />
             <h3 className="font-semibold text-lg mt-5 text-[#090F4E]">
               Get Enriched Data
@@ -67,8 +67,8 @@ const HowItWorks = () => {
             />
           </div>
         </div>
-        <div className="w-full sm:w-[48%] md:w-[20%] min-h-[30vh] sm:min-h-[35vh] md:min-h-[40vh] shadow-md rounded-2xl p-4 bg-[#ffffff] z-50">
-          <div className="w-full flex flex-col justify-center items-center py-4">
+        <div className="w-full sm:w-[48%] md:w-[20%] min-h-[30vh] sm:min-h-[35vh] md:min-h-[50vh] shadow-md rounded-2xl p-4 bg-[#ffffff] z-50">
+          <div className="w-full h-full flex flex-col justify-between items-center py-4">
             <Four className="size-20" />
             <h3 className="font-semibold text-lg mt-5 text-[#090F4E]">
               Sync to CRM
