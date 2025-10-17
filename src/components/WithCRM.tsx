@@ -6,7 +6,7 @@ import AccessIcon from "../assets/SliderIcons/AccessIcon";
 interface WithCRMInterface {}
 const WithCRM: React.FC<WithCRMInterface> = ({}) => {
   return (
-    <div className="w-full lg:w-1/2 bg-pink-50 p-6 rounded-lg shadow-md flex flex-col justify-between">
+    <div className="w-full lg:w-[45%] bg-white p-6 rounded-2xl shadow-md flex flex-col justify-between border-1 border-transparent hover:border-[#2b2b2b] hover:scale-101 transition-all duration-300 ease-in-out">
       <div>
         <div className="flex items-center mb-4">
           <img

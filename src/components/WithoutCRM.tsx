@@ -4,7 +4,7 @@ interface WithoutCRMInterface {}
 
 const WithoutCRM: React.FC<WithoutCRMInterface> = ({}) => {
   return (
-    <div className="w-full lg:w-1/2 bg-pink-50 p-6 rounded-lg shadow-md flex flex-col justify-between">
+    <div className="w-full lg:w-[45%] bg-pink-50 p-6 rounded-2xl shadow-md flex flex-col justify-between border-1 border-transparent hover:border-[#f79595] hover:scale-101 transition-all duration-300 ease-in-out">
       <div>
         <div className="flex items-center mb-4">
           <img
@@ -13,7 +13,9 @@ const WithoutCRM: React.FC<WithoutCRMInterface> = ({}) => {
             className="mr-4"
           />
         </div>
-        <h3 className="text-xl font-semibold text-[#D24B68]">Without LeadCRM</h3>
+        <h3 className="text-xl font-semibold text-[#D24B68]">
+          Without LeadCRM
+        </h3>
       </div>
       <ul className="space-y-4 mt-5">
         <li className="flex items-center gap-3">
