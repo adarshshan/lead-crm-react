@@ -4,15 +4,17 @@ interface WithoutCRMInterface {}
 
 const WithoutCRM: React.FC<WithoutCRMInterface> = ({}) => {
   return (
-    <div className="w-full lg:w-1/2 bg-pink-50 p-6 rounded-lg shadow-md">
-      <div className="flex items-center mb-4">
-        <img
-          src="https://img.leadcrm.io/wp-content/uploads/2025/07/08084651/Without-LeadCRM-768x299.webp"
-          alt="Sales Navigator"
-          className="mr-4"
-        />
+    <div className="w-full lg:w-1/2 bg-pink-50 p-6 rounded-lg shadow-md flex flex-col justify-between">
+      <div>
+        <div className="flex items-center mb-4">
+          <img
+            src="https://img.leadcrm.io/wp-content/uploads/2025/07/08084651/Without-LeadCRM-768x299.webp"
+            alt="Sales Navigator"
+            className="mr-4"
+          />
+        </div>
+        <h3 className="text-xl font-semibold text-[#D24B68]">Without LeadCRM</h3>
       </div>
-      <h3 className="text-xl font-semibold text-[#D24B68]">Without LeadCRM</h3>
       <ul className="space-y-4 mt-5">
         <li className="flex items-center gap-3">
           <XIcon className="size-4" />

@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <div className="flex justify-between items-center w-[20%] h-[5rem] bg-gradient-to-r from-[#5ED3FF] via-[#6EC6FE] via-[#EB65F4] to-[#FD58F2] rounded-xl px-5 py-3 mt-10">
+            <div className="flex justify-between items-center w-[85%] sm:w-[20%] h-[5rem] bg-gradient-to-r from-[#5ED3FF] via-[#6EC6FE] via-[#EB65F4] to-[#FD58F2] rounded-xl px-5 py-3 mt-10">
               <p className="text-[#2E2E2E] test-2xl font-semibold">
                 Works With
               </p>
@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
                 <WorkIcon_3 className="size-14" />
               </div>
             </div>
-            <div className="flex justify-between gap-3 items-center w-[23%] h-[5rem] py-3 mt-5">
+            <div className="flex flex-col sm:flex-row justify-between gap-3 items-center w-[23%] py-3 mt-5">
               <div className="flex justify-between items-center gap-2">
                 <div className="flex justify-center items-center rounded-xl bg-white p-3 shadow-sm shadow-[0_0_10px_#9aa1a7]">
                   <ChromeIcon className="size-8" />
