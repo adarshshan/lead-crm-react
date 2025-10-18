@@ -3,6 +3,7 @@ import DataEnrichmentIcon from "../assets/salesSolutions/DataEnrichmentIcon";
 import SyncIcon from "../assets/salesSolutions/SyncIcon";
 import BulkExport from "../assets/salesSolutions/BulkExport";
 import AIIcon from "../assets/leadIcons/AIIcon";
+import androidImg from "../assets/androidimg.png";
 
 interface SalesSolutionsInterface {
   title: ReactNode;
@@ -163,7 +164,12 @@ const SalesSolutions: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-[14rem] bg-white py-15">
+    <div className="relative min-h-[14rem] bg-white py-15">
+      <img
+        src={androidImg}
+        alt=""
+        className="absolute left-0 top-4 w-18 hidden sm:block"
+      />
       <div className="flex flex-col items-center py-6 px-4 sm:px-6 md:px-8 lg:px-20">
         <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-[#090F4E] pb-1 text-center">
           Complete LinkedIn Sales Solutions

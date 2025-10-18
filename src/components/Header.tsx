@@ -14,7 +14,7 @@ const Header = () => {
     <header className="fixed inset-x-0 top-0 z-50 bg-[#ffffff] shadow-md shadow-[#959DA51A]">
       <nav
         aria-label="Global"
-        className="flex items-center justify-between p-6 lg:px-8"
+        className="flex items-center justify-between p-4 sm:p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">

@@ -30,7 +30,7 @@ function App() {
         buttonTitle="Get Started Today"
         imgUrl={img1}
         bgColor="#EAEFFA"
-        className="my-32"
+        className=""
         rightArrow
       />
       <Footer />

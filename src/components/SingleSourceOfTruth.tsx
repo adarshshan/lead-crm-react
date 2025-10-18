@@ -1,4 +1,6 @@
 import CustomButton from "./CustomButton";
+import messageBox from "../assets/message_box.png";
+import spaceImg from "../assets/spaceImg.png";
 
 interface SingleSourceOfTruthInterface {
   title: string;
@@ -21,8 +23,23 @@ const SingleSourceOfTruth: React.FC<SingleSourceOfTruthInterface> = ({
   return (
     <div
       style={{ background: bgColor ?? "white" }}
-      className={`min-h-[14rem] py-15 ${className}`}
+      className={`min-h-[14rem] pt-15 ${className} relative`}
     >
+      {!rightArrow && (
+        <img
+          src={messageBox}
+          alt=""
+          className="absolute left-3/5 top-0 size-28 hidden sm:block"
+        />
+      )}
+      {!rightArrow && (
+        <img
+          src={spaceImg}
+          alt=""
+          className="absolute right-0 -bottom-6 hidden sm:block size-28"
+        />
+      )}
+
       <div className="flex flex-col items-center py-6 px-4 sm:px-6 md:px-8 lg:px-20">
         <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-[#090F4E] pb-1 text-center">
           {title}
