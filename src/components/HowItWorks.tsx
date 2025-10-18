@@ -61,7 +61,7 @@ const HowItWorksCard: React.FC<HowItWorksCardProps> = ({
   alt,
 }) => {
   return (
-    <div className="w-full md:w-[48%] lg:w-[20%] min-h-[30vh] sm:min-h-[35vh] md:min-h-[50vh] shadow-md rounded-2xl p-4 bg-[#ffffff] z-50 hover:scale-99 border-transparent hover:border hover:border-[#2D96BC] hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer">
+    <div className="w-full md:w-[48%] lg:w-[20%] min-h-[30vh] sm:min-h-[35vh] md:min-h-[50vh] shadow-md rounded-2xl p-4 bg-[#ffffff] z-40 hover:scale-99 border-transparent hover:border hover:border-[#2D96BC] hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer">
       <div className="w-full h-full flex flex-col justify-between items-center py-4">
         <Icon className="size-20" />
         <h3 className="font-semibold text-lg mt-5 text-[#090F4E]">{title}</h3>
@@ -107,6 +107,7 @@ const HowItWorks = () => {
           text="Try LeadCRM Now"
           bgColor="#B3FC6A"
           textColor="#000000"
+          rightArrow
         />
       </div>
     </div>

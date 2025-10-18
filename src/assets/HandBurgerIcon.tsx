@@ -7,7 +7,7 @@ const HandBurgerIcon: React.FC<any> = (props) => {
       strokeWidth="1.5"
       data-slot="icon"
       aria-hidden="true"
-      className="size-6"
+      className="size-6 !text-[#2D96BC]"
       {...props}
     >
       <path

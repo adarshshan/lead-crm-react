@@ -7,6 +7,7 @@ interface SingleSourceOfTruthInterface {
   buttonTitle: string;
   bgColor?: string;
   className?: string;
+  rightArrow?: boolean;
 }
 const SingleSourceOfTruth: React.FC<SingleSourceOfTruthInterface> = ({
   title,
@@ -15,6 +16,7 @@ const SingleSourceOfTruth: React.FC<SingleSourceOfTruthInterface> = ({
   buttonTitle,
   bgColor,
   className,
+  rightArrow,
 }) => {
   return (
     <div
@@ -35,6 +37,7 @@ const SingleSourceOfTruth: React.FC<SingleSourceOfTruthInterface> = ({
           text={buttonTitle}
           bgColor="#B3FC6A"
           textColor="#000000"
+          rightArrow={rightArrow}
         />
       </div>
     </div>

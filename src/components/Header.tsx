@@ -1,6 +1,8 @@
 import { useState } from "react";
 import MainLogo from "../assets/MainLogo";
 import HandBurgerIcon from "../assets/HandBurgerIcon";
+import DownArrow from "../assets/DownArrow";
+import LoginIcon from "../assets/LoginIcon";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -27,30 +29,47 @@ const Header = () => {
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-200"
           >
             <span className="sr-only">Open main menu</span>
-            <HandBurgerIcon />
+            <div className="button px-2 py-1 border-2 rounded-md borer-[#2D96BC]">
+              <HandBurgerIcon />
+            </div>
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-[1.1rem] font-semibold text-[#222222]">
+          <a
+            href="#"
+            className="flex justify-center gap-2 items-center text-[1.1rem] font-semibold text-[#222222]"
+          >
             Product
+            <DownArrow className="w-3" />
           </a>
-          <a href="#" className="text-[1.1rem] font-semibold text-[#222222]">
+          <a
+            href="#"
+            className="flex justify-center gap-2 items-center text-[1.1rem] font-semibold text-[#222222]"
+          >
             Pricing
           </a>
-          <a href="#" className="text-[1.1rem] font-semibold text-[#222222]">
+          <a
+            href="#"
+            className="flex justify-center gap-2 items-center text-[1.1rem] font-semibold text-[#222222]"
+          >
             Resources
+            <DownArrow className="w-3" />
           </a>
-          <a href="#" className="text-[1.1rem] font-semibold text-[#222222]">
+          <a
+            href="#"
+            className="flex justify-center gap-2 items-center text-[1.1rem] font-semibold text-[#222222]"
+          >
             Company
+            <DownArrow className="w-3" />
           </a>
         </div>
         <div className="hidden lg:flex lg:flex-1 gap-4 lg:justify-end">
           <button className="rounded-md py-3 px-5 border-1 border-[#2D96BC] bg-[#2D96BC] text-[#ffffff] font-semibold">
             Get Your Free Account
           </button>
-          <button className="rounded-md py-3 px-5 border-1 border-[#2D96BC] text-[#2D96BC]">
-            <i className="fa-solid fa-arrow-right-to-bracket"></i>
-            Login
+          <button className="flex gap-1 items-center rounded-md py-3 px-5 border-1 border-[#2D96BC] text-[#2D96BC]">
+            <LoginIcon className="size-6" />
+            <p>Login</p>
           </button>
         </div>
       </nav>

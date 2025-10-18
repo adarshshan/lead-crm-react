@@ -24,7 +24,16 @@ const Hero: React.FC = () => {
           <h1 className="text-5xl font-semibold tracking-tight text-balance text-[#121212] sm:text-6xl text-center">
             LinkedIn CRM Integration<br></br>
             Capture, Sync and Enrich in{" "}
-            <span className="text-[#2D96BC]">Both Ways</span>
+            <span className="text-[#2D96BC] relative">
+              Both Ways
+              <span
+                className="absolute left-0 -bottom-4 block w-full h-4 ms-2 bg-gradient-to-br from-yellow-700 to-white"
+                style={{
+                  background:
+                    "linear-gradient(to bottom right, yellow 50%, white 50%)",
+                }}
+              ></span>
+            </span>
           </h1>
           <div className="flex justify-center">
             <p className="sm:w-[50%] mt-8 text-lg font-medium text-pretty text-[#363636] sm:text-xl/8">

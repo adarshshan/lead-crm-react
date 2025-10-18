@@ -51,7 +51,7 @@ interface HowItWorksCardProps {
 
 const ReviewCard: React.FC<HowItWorksCardProps> = ({ card }) => {
   return (
-    <div className="w-full flex flex-col justify-between md:w-[48%] lg:w-[27%] min-h-[30vh] sm:min-h-[40vh] shadow-md rounded-2xl p-4 bg-[#F9F0F8] z-50 hover:scale-99 border-transparent hover:border hover:border-[#f79595] hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer pt-9">
+    <div className="w-full flex flex-col justify-between md:w-[48%] lg:w-[27%] min-h-[30vh] sm:min-h-[40vh] shadow-md rounded-2xl p-4 bg-[#F9F0F8] z-40 hover:scale-99 border-transparent hover:border hover:border-[#f79595] hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer pt-9">
       <p className="text-[#2C2C2C] text-start text-[1.1rem] font-semibold">
         {card?.description}
       </p>
