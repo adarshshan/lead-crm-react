@@ -95,8 +95,8 @@ const Footer: React.FC = () => {
 
   return (
     <footer className="bg-[linear-gradient(to_right_top,_#ffffff_7%,_#01B2D838_22%)]  text-gray-700 py-8 px-4 md:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start">
-        <div className="flex flex-col gap-3 mb-4 md:mb-0">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start">
+        <div className="flex flex-col items-center text-center md:items-start md:text-start gap-3 mb-4 md:mb-0">
           <MainLogo className="w-52" />
           <p className="text-sm font-semibold mt-2">
             LeadCRM is LinkedIn integration
@@ -109,12 +109,12 @@ const Footer: React.FC = () => {
             <InstagramIcon className="h-10 w-10 shrink-0" />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 relative">
+        <div className="relative flex flex-wrap justify-center md:justify-start gap-8 mt-8 md:mt-0 pb-16 sm:pb-0">
           <SectionColumn title="Integrations" items={sections.integrations} />
           <SectionColumn title="Alternative" items={sections.alternative} />
           <SectionColumn title="Legal" items={sections.legal} />
           <SectionColumn title="Contact Us" items={sections.contact} />
-          <div className="absolute right-3 bottom-0 mt-4 flex gap-1 items-center bg-[#242424] py-1 px-4 rounded-2xl">
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 md:right-0 md:left-auto md:translate-x-0 mt-4 flex gap-1 items-center bg-[#242424] py-1 px-4 rounded-2xl h-fit">
             <p className="text-[#FFFFFF] text-sm">
               Available in <br /> <strong>Chrome</strong>
             </p>

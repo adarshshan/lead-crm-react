@@ -18,7 +18,7 @@ const CustomButton: React.FC<CustomButtonInterface> = ({
         background: bgColor ?? "#B3FC6A",
         color: textColor ?? "#000000",
       }}
-      className="flex gap-1 items-center py-3 px-5 rounded-xl font-semibold sm:mt-9"
+      className="flex gap-1 items-center py-3 px-5 rounded-xl font-semibold mt-4 sm:mt-9"
     >
       {text}
       {rightArrow && <RightArrow className="size-4" />}

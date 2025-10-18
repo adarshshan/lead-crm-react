@@ -45,11 +45,11 @@ const SingleSourceOfTruth: React.FC<SingleSourceOfTruthInterface> = ({
           {title}
         </h2>
         {description && (
-          <p className="text-gray-600 text-center text-lg mt-2 w-[60%]">
+          <p className="text-gray-600 text-center text-lg mt-2 w-[90%] sm:w-[60%]">
             {description}
           </p>
         )}
-        <img src={imgUrl} alt="" className="w-[75%] mt-8" />
+        <img src={imgUrl} alt="" className="w-[95%] sm:w-[75%] mt-8" />
         <CustomButton
           text={buttonTitle}
           bgColor="#B3FC6A"

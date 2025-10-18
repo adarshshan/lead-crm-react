@@ -6,7 +6,7 @@ import CustomButton from "./CustomButton";
 
 const LeadCRMSection: React.FC = () => {
   return (
-    <section className="bg-white py-12 px-6 pt-2 lg:px-8">
+    <section className="bg-white py-12 px-1 pt-2 lg:px-8">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#090F4E] text-center mb-8">
         Every LinkedIn Prospector faces these daily challenges
       </h2>
