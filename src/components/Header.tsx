@@ -22,7 +22,11 @@ const Header = () => {
             <MainLogo className="w-48" />
           </a>
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex lg:hidden gap-2 items-center">
+          <button className="flex gap-1 items-center rounded-md py-1 lg:py-2 px-3 border-1 border-[#2D96BC] text-[#2D96BC]">
+            <LoginIcon className="size-6" />
+            <p>Login</p>
+          </button>
           <button
             type="button"
             onClick={toggleMenu}
@@ -34,7 +38,7 @@ const Header = () => {
             </div>
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex gap-x-2 xl:gap-x-12 pe-4">
           <a
             href="#"
             className="flex justify-center gap-2 items-center text-[1.1rem] font-semibold text-[#222222]"
@@ -64,7 +68,7 @@ const Header = () => {
           </a>
         </div>
         <div className="hidden lg:flex lg:flex-1 gap-4 lg:justify-end">
-          <button className="rounded-md py-3 px-5 border-1 border-[#2D96BC] bg-[#2D96BC] text-[#ffffff] font-semibold">
+          <button className="rounded-md whitespace-nowrap py-3 px-5 border-1 border-[#2D96BC] bg-[#2D96BC] text-[#ffffff] font-semibold">
             Get Your Free Account
           </button>
           <button className="flex gap-1 items-center rounded-md py-3 px-5 border-1 border-[#2D96BC] text-[#2D96BC]">

@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
   );
 
   return (
-    <footer className="bg-[linear-gradient(to_right_top,_#ffffff_7%,_#01B2D838_22%)]  text-gray-700 py-8 px-4 md:px-6 lg:px-8">
+    <footer className="bg-[linear-gradient(to_top_right,_#ffffff,_#01B2D838)]  text-gray-700 py-8 px-4 md:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start">
         <div className="flex flex-col items-center text-center md:items-start md:text-start gap-3 mb-4 md:mb-0">
           <MainLogo className="w-52" />

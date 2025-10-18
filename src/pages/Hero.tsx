@@ -27,10 +27,10 @@ const Hero: React.FC = () => {
             <span className="text-[#2D96BC] relative">
               Both Ways
               <span
-                className="absolute left-0 -bottom-4 block w-full h-4 ms-2 bg-gradient-to-br from-yellow-700 to-white"
+                className="absolute left-0 -bottom-6 block w-full h-4 ms-2 bg-gradient-to-br from-yellow-700 to-white"
                 style={{
                   background:
-                    "linear-gradient(to bottom right, yellow 50%, white 50%)",
+                    "linear-gradient(to bottom right, #e6ab0b 50%, white 50%)",
                 }}
               ></span>
             </span>
