@@ -4,6 +4,7 @@ import One from "../assets/howWorks/One";
 import Three from "../assets/howWorks/Three";
 import Two from "../assets/howWorks/Two";
 import arrowimage from "../assets/leadIcons/rightArrow.png";
+import CustomButton from "./CustomButton";
 
 const cardData = [
   {
@@ -102,9 +103,11 @@ const HowItWorks = () => {
         </div>
       </div>
       <div className="flex justify-center py-6  lg:py-9">
-        <button className="py-3 px-5 bg-[#B3FC6A] rounded-xl text-[#000000] font-semibold sm:mt-9">
-          Try LeadCRM Now
-        </button>
+        <CustomButton
+          text="Try LeadCRM Now"
+          bgColor="#B3FC6A"
+          textColor="#000000"
+        />
       </div>
     </div>
   );

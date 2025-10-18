@@ -2,6 +2,7 @@ import React from "react";
 import WithCRM from "./WithCRM";
 import WithoutCRM from "./WithoutCRM";
 import signImg from "../assets/leadIcons/signimage.png";
+import CustomButton from "./CustomButton";
 
 const LeadCRMSection: React.FC = () => {
   return (
@@ -24,9 +25,11 @@ const LeadCRMSection: React.FC = () => {
           className="hidden sm:absolute w-[12rem] right-4/12"
           alt="sign image"
         />
-        <button className="py-3 px-5 bg-[#B3FC6A] rounded-xl text-[#000000] font-semibold sm:mt-9">
-          Start Using LeadCRM Now
-        </button>
+        <CustomButton
+          text="Start Using LeadCRM Now"
+          bgColor="#B3FC6A"
+          textColor="#000000"
+        />
       </div>
     </section>
   );

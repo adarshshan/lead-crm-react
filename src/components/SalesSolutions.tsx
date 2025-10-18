@@ -219,6 +219,7 @@ export default SalesSolutions;
 interface SolutionCardInterface {
   solution: SalesSolutionsInterface;
 }
+
 const SolutionCard: React.FC<SolutionCardInterface> = ({ solution }) => {
   return (
     <div
