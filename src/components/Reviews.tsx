@@ -1,9 +1,4 @@
 import React from "react";
-import Four from "../assets/howWorks/Four";
-import One from "../assets/howWorks/One";
-import Three from "../assets/howWorks/Three";
-import Two from "../assets/howWorks/Two";
-import arrowimage from "../assets/leadIcons/rightArrow.png";
 import PlayStoreIcon from "../assets/PlayStoreIcon";
 import StarIcon from "../assets/StarIcon";
 
